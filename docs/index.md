@@ -1,22 +1,22 @@
 ---
-title: Welcome
+title: RAS 304 ORC
 tags:
 - tag1
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">(Owen Callaway) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> RAS304 Project Two</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 101 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: August, 28, 2026**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This is my submission and current github repository for RAS304.
 
 ### Project Summary
 
