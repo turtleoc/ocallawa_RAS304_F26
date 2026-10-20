@@ -37,7 +37,7 @@ The display module will provide a visual interface for the user, allowing inform
    | :--: | :--: |
    | Low cost US$9.46 | Complex pinout without additional module |
    | High contrast | Difficult mounting |
-   | [Link to product](https://www.buydisplay.com/) | |
+   | [Link to product](https://www.buydisplay.com/arduino-black-lcd-20x4-i2c-code-character-module-display-high-contrast) | |
 
 3. **Hosyond 2.42 SSD1309 Display**
 
@@ -45,10 +45,10 @@ The display module will provide a visual interface for the user, allowing inform
 
    | Pros | Cons |
    | :--: | :--: |
-   | Low cost US$15.00 | Complex setup |
+   | Low cost US$15.99 | Complex setup |
    | High pixel count | Fragile |
    | Simple pinout | |
-   | [Link to product](https://www.amazon.com/) | |
+   | [Link to product](https://www.amazon.com/Hosyond-inches-Display-SSD1309-Arduino/dp/B0G2RFLG1L/ref=sr_1_6?crid=2HMQACBZAN3Q7&dib=eyJ2IjoiMSJ9.Ow-e3_XoNgJW80RouUdQqt4rlTLRowULCs2eUHuLKh96rkOY7GfjGB9KO0b7LyYqkyDlR1Ymn0NjqUqPQ70i80z5Sw-e0HjGJRmJqaxuNWIXu2UgdwsEo4fIA0577m17iI01nDo7AWc9VjutFklhJ8ao0h4QHvXN__vHZTHHWMenyxvrRRYt3nBW_Jx11xhLwyEYtGaQqTf0qUNSZ8qS3zPj4jELu1l4KGe8Vm8Ufag.oeDuK4QLR1GEmp0xCKYhCaBLAN5Yi-H5MR_y_ucGP58&dib_tag=se&keywords=hoysond+2.4+oled&qid=1792512474&sprefix=hoysond+2.4+ole%2Caps%2C177&sr=8-6) | |
 
 **Choice:**
 
