@@ -12,4 +12,4 @@ tags:
 
 ## My Block Diagram 
 
-![Diagram](image/Component Diagram.png)
+![Diagram](Block-Diagram/Component Diagram.png)
