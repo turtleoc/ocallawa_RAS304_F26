@@ -10,6 +10,6 @@ tags:
 
 
 
-## Example Block Diagram 
+## My Block Diagram 
 
-(Component Diagram.png)
+![Diagram](image/Component Diagram.png)
