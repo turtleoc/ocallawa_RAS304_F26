@@ -1,5 +1,5 @@
 ---
-Section One : Individal Block Diagram
+Section One : Individual Block Diagram
 ---
 
 ## Overview

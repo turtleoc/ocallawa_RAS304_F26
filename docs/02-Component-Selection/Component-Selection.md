@@ -15,34 +15,79 @@ Section Two : Component Selection
 
 The display module will provide a visual interface for the user, allowing information and settings to be displayed.
 
-**External Clock Module**
 
-1. XC1259TR-ND surface mount crystal
+1. DFR0154 Display
 
-    ![](image1.png)
+    <img src="./LCD_1.webp" width="400">
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    | Pros | Cons |
+    | :--: | :--: |
+    | Low cost US$14.00 | Bulky                  |
+    | Simple pinout     | Low backlight contrast |
+    | [Link to product](https://www.digikey.com/en/products/detail/dfrobot/DFR0154/7597130) |
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+2. **ERM2004DNS-1 Display**
 
-1. CTX936TR-ND surface mount oscillator
+   <img src="./LCD_2.webp" width="400">
 
-    ![](image3.png)
+   | Pros | Cons |
+   | :--: | :--: |
+   | Low cost US$9.46 | Complex pinout without additional module |
+   | High contrast | Difficult mounting |
+   | [Link to product](https://www.buydisplay.com/) |
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+3. **Hosyond 2.42 SSD1309 Display**
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+   <img src="./Hoysond.jpg" width="400">
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+   | Pros | Cons |
+   | :--: | :--: |
+   | Low cost US$15.00 | Complex setup |
+   | High pixel count | Fragile |
+   | Simple pinout | |
+   | [Link to product](https://www.amazon.com/) |
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Choice:**  
+
+> **DFR0154 LCD Display :** Its simplistic pinout allows the design to become significally less complex.
+
+## Dial Interface
+
+This will allow the user to interact with the LCD display.
+
+1. **WH148 B10K Potentiometer**
+
+    <img src="./Pot_1.jpg" width="400">
+
+   | Pros | Cons |
+   | :--: | :--: |
+   | Low cost US$6.99 | Impact sensitive |
+   | Simple pinout | Limited rotation |
+   | Easy to setup | |
+   | [Link to product](https://www.amazon.com/dp/B07WWLC33K?lv=shuf&channelId=500&plpRedirect=mhFallback)|
+
+2. **PEC11-4215F-S24 Rotary Encoder**
+
+    <img src="./Rotary 1.jpg" width="400">
+
+   | Pros | Cons |
+   | :--: | :--: |
+   | Low cost US$4.50 | Impact sensitive |
+   | Unlimited rotation | Complex pinout |
+   | Larger physical size | Complex setup |
+   | [Link to product](https://www.adafruit.com/product/377)|
+
+3. **PTV09A-4215F-B103 Potentiometer**
+
+    <img src="./Pot_Small.jpg" width="400">
+
+   | Pros | Cons |
+   | :--: | :--: |
+   | Very low cost US$0.89 | Impact sensitive |
+   | Simple analog interface | Limited rotation |
+   | Easy to connect | Small size (9mm) |
+   | [Link to product](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4215F-B103/3820584)|
+
+**Choice:**  
+
+> **PEC11-4215F-S24 Rotary Encoder:** Its more user friendly design and higher user quality are unmatched.
