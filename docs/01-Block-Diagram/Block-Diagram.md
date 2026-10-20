@@ -1,5 +1,5 @@
 ---
-title: Individal Block Diagram
+Section One : Individal Block Diagram
 ---
 
 ## Overview
@@ -9,6 +9,4 @@ title: Individal Block Diagram
 
 ## My Block Diagram 
 
-[Second Image](./one.png)
-
-![Block Diagram](one.png)
+[My Block Diagram](./one.png)
