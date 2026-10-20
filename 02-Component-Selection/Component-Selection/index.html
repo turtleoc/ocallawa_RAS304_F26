@@ -619,6 +619,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#dial-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dial Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -900,6 +911,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#dial-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dial Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -983,71 +1005,196 @@
 </blockquote>
 <h2 id="display-module">Display Module</h2>
 <p>The display module will provide a visual interface for the user, allowing information and settings to be displayed.</p>
-<p><strong>External Clock Module</strong></p>
 <ol>
 <li>
-<p>XC1259TR-ND surface mount crystal</p>
+<p>DFR0154 Display</p>
 <p></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td style="text-align: center;">Low cost US$14.00</td>
+<td style="text-align: center;">Bulky</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td style="text-align: center;">Simple pinout</td>
+<td style="text-align: center;">Low backlight contrast</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td style="text-align: center;"><a href="https://www.digikey.com/en/products/detail/dfrobot/DFR0154/7597130">Link to product</a></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>CTX936TR-ND surface mount oscillator</p>
+<p><strong>ERM2004DNS-1 Display</strong></p>
+</li>
+</ol>
 <p></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
-</ul>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td style="text-align: center;">Low cost US$9.46</td>
+<td style="text-align: center;">Complex pinout without additional module</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td style="text-align: center;">High contrast</td>
+<td style="text-align: center;">Difficult mounting</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
+<td style="text-align: center;"><a href="https://www.buydisplay.com/">Link to product</a></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
+<ol>
+<li><strong>Hosyond 2.42 SSD1309 Display</strong></li>
+</ol>
+<p></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Low cost US$15.00</td>
+<td style="text-align: center;">Complex setup</td>
+</tr>
+<tr>
+<td style="text-align: center;">High pixel count</td>
+<td style="text-align: center;">Fragile</td>
+</tr>
+<tr>
+<td style="text-align: center;">Simple pinout</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://www.amazon.com/">Link to product</a></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong>  </p>
+<blockquote>
+<p><strong>DFR0154 LCD Display :</strong> Its simplistic pinout allows the design to become significally less complex.</p>
+</blockquote>
+<h2 id="dial-interface">Dial Interface</h2>
+<p>This will allow the user to interact with the LCD display.</p>
+<ol>
+<li>
+<p><strong>WH148 B10K Potentiometer</strong></p>
+<p></p>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Low cost US$6.99</td>
+<td style="text-align: center;">Impact sensitive</td>
+</tr>
+<tr>
+<td style="text-align: center;">Simple pinout</td>
+<td style="text-align: center;">Limited rotation</td>
+</tr>
+<tr>
+<td style="text-align: center;">Easy to setup</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://www.amazon.com/dp/B07WWLC33K?lv=shuf&amp;channelId=500&amp;plpRedirect=mhFallback">Link to product</a></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p><strong>PEC11-4215F-S24 Rotary Encoder</strong></p>
+<p></p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Low cost US$4.50</td>
+<td style="text-align: center;">Impact sensitive</td>
+</tr>
+<tr>
+<td style="text-align: center;">Unlimited rotation</td>
+<td style="text-align: center;">Complex pinout</td>
+</tr>
+<tr>
+<td style="text-align: center;">Larger physical size</td>
+<td style="text-align: center;">Complex setup</td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://www.adafruit.com/product/377">Link to product</a></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p><strong>PTV09A-4215F-B103 Potentiometer</strong></p>
+<p></p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Pros</th>
+<th style="text-align: center;">Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Very low cost US$0.89</td>
+<td style="text-align: center;">Impact sensitive</td>
+</tr>
+<tr>
+<td style="text-align: center;">Simple analog interface</td>
+<td style="text-align: center;">Limited rotation</td>
+</tr>
+<tr>
+<td style="text-align: center;">Easy to connect</td>
+<td style="text-align: center;">Small size (9mm)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4215F-B103/3820584">Link to product</a></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong>  </p>
+<blockquote>
+<p><strong>PEC11-4215F-S24 Rotary Encoder:</strong> Its more user friendly design and higher user quality are unmatched.</p>
+</blockquote>
 
 
 
