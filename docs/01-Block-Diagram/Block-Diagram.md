@@ -9,14 +9,6 @@ title: Individal Block Diagram
 
 ## My Block Diagram 
 
-![First Image](./individual-block-diagram.png)
-
-![Second Image](./one.png)
-
 [Second Image](./one.png)
 
-<h2>My Block Diagram</h2>
-
-<img src="../one.png" alt="Block Diagram" width="600">\
-
-## TESTING TESTING WORKUING?
+![Block Diagram](one.png)
