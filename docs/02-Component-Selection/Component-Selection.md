@@ -16,40 +16,43 @@ Section Two : Component Selection
 The display module will provide a visual interface for the user, allowing information and settings to be displayed.
 
 
-1. DFR0154 Display
 
-    <img src="./LCD_1.webp" width="400">
+## Display Module
 
-    | Pros | Cons |
-    | :--: | :--: |
-    | Low cost US$14.00 | Bulky                  |
-    | Simple pinout     | Low backlight contrast |
-    | [Link to product](https://www.digikey.com/en/products/detail/dfrobot/DFR0154/7597130) |
+1. **DFR0154 Display**
+
+   [DFR0154 Display](./LCD_1.webp)
+
+   | Pros | Cons |
+   | :--: | :--: |
+   | Low cost US$14.00 | Bulky |
+   | Simple pinout | Low backlight contrast |
+   | [Link to product](https://www.digikey.com/en/products/detail/dfrobot/DFR0154/7597130) | |
 
 2. **ERM2004DNS-1 Display**
 
-   <img src="./LCD_2.webp" width="400">
+   [ERM2004DNS-1 Display](./LCD_2.webp)
 
    | Pros | Cons |
    | :--: | :--: |
    | Low cost US$9.46 | Complex pinout without additional module |
    | High contrast | Difficult mounting |
-   | [Link to product](https://www.buydisplay.com/) |
+   | [Link to product](https://www.buydisplay.com/) | |
 
 3. **Hosyond 2.42 SSD1309 Display**
 
-   <img src="./Hoysond.jpg" width="400">
+   [Hosyond 2.42 SSD1309 Display](./Hoysond.jpg)
 
    | Pros | Cons |
    | :--: | :--: |
    | Low cost US$15.00 | Complex setup |
    | High pixel count | Fragile |
    | Simple pinout | |
-   | [Link to product](https://www.amazon.com/) |
+   | [Link to product](https://www.amazon.com/) | |
 
-**Choice:**  
+**Choice:**
 
-> **DFR0154 LCD Display :** Its simplistic pinout allows the design to become significally less complex.
+> **DFR0154 LCD Display:** Its simplistic pinout allows the design to become significantly less complex.
 
 ## Dial Interface
 
@@ -57,37 +60,37 @@ This will allow the user to interact with the LCD display.
 
 1. **WH148 B10K Potentiometer**
 
-    <img src="./Pot_1.jpg" width="400">
+   [WH148 B10K Potentiometer](./Pot_1.jpg)
 
    | Pros | Cons |
    | :--: | :--: |
    | Low cost US$6.99 | Impact sensitive |
    | Simple pinout | Limited rotation |
    | Easy to setup | |
-   | [Link to product](https://www.amazon.com/dp/B07WWLC33K?lv=shuf&channelId=500&plpRedirect=mhFallback)|
+   | [Link to product](https://www.amazon.com/dp/B07WWLC33K?lv=shuf&channelId=500&plpRedirect=mhFallback) | |
 
 2. **PEC11-4215F-S24 Rotary Encoder**
 
-    <img src="./Rotary 1.jpg" width="400">
+   [PEC11-4215F-S24 Rotary Encoder](./Rotary%201.jpg)
 
    | Pros | Cons |
    | :--: | :--: |
    | Low cost US$4.50 | Impact sensitive |
    | Unlimited rotation | Complex pinout |
    | Larger physical size | Complex setup |
-   | [Link to product](https://www.adafruit.com/product/377)|
+   | [Link to product](https://www.adafruit.com/product/377) | |
 
 3. **PTV09A-4215F-B103 Potentiometer**
 
-    <img src="./Pot_Small.jpg" width="400">
+   [PTV09A-4215F-B103 Potentiometer](./Pot_Small.jpg)
 
    | Pros | Cons |
    | :--: | :--: |
    | Very low cost US$0.89 | Impact sensitive |
    | Simple analog interface | Limited rotation |
    | Easy to connect | Small size (9mm) |
-   | [Link to product](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4215F-B103/3820584)|
+   | [Link to product](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4215F-B103/3820584) | |
 
-**Choice:**  
+**Choice:**
 
-> **PEC11-4215F-S24 Rotary Encoder:** Its more user friendly design and higher user quality are unmatched.
+> **PEC11-4215F-S24 Rotary Encoder:** Its more user-friendly design and higher user quality are unmatched.
