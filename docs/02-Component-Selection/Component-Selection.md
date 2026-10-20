@@ -35,7 +35,7 @@ The display module will provide a visual interface for the user, allowing inform
 
    | Pros | Cons |
    | :--: | :--: |
-   | Low cost US$9.46 | Complex pinout without additional module |
+   | Low cost US$7.79 | Complex pinout without additional module |
    | High contrast | Difficult mounting |
    | [Link to product](https://www.buydisplay.com/arduino-black-lcd-20x4-i2c-code-character-module-display-high-contrast) | |
 
