@@ -21,7 +21,9 @@ The display module will provide a visual interface for the user, allowing inform
 
 1. **DFR0154 Display**
 
-   [DFR0154 Display](./LCD_1.webp)
+<!-- ![DFR0154 Display](./LCD_1.webp) -->
+![DFR0154_Display](LCD_1.webp){style width:"350" height:"300;"}
+
 
    | Pros | Cons |
    | :--: | :--: |
