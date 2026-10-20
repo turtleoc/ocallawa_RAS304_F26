@@ -13,6 +13,8 @@ title: Individal Block Diagram
 
 ![Second Image](./one.png)
 
+[Second Image](./one.png)
+
 <h2>My Block Diagram</h2>
 
 <img src="../one.png" alt="Block Diagram" width="600">\
