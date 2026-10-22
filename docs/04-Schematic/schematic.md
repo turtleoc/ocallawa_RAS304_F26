@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support our teams robot as a central control unit and human machine interface.
+This schematic is designed to support our teams robot as a central control unit and human machine interface.
 
 
 [schematic](Individual_Schematic.png)
