@@ -21,9 +21,7 @@ The display module will provide a visual interface for the user, allowing inform
 
 1. **DFR0154 Display**
 
-<!-- ![DFR0154 Display](./LCD_1.webp) -->
-   [DFR0154_Display](LCD_1.webp){style width:"350" height:"300;"}
-
+   ![DFR0154_Display](LCD_1.webp){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
@@ -33,7 +31,7 @@ The display module will provide a visual interface for the user, allowing inform
 
 2. **ERM2004DNS-1 Display**
 
-   [ERM2004DNS-1 Display](./LCD_2.webp){style width:"350" height:"300;"}
+   ![ERM2004DNS-1 Display](./LCD_2.webp){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
@@ -43,7 +41,7 @@ The display module will provide a visual interface for the user, allowing inform
 
 3. **Hosyond 2.42 SSD1309 Display**
 
-   [Hosyond 2.42 SSD1309 Display](./Hoysond.jpg){style width:"350" height:"300;"}
+   ![Hosyond 2.42 SSD1309 Display](./Hoysond.jpg){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
@@ -62,7 +60,7 @@ This will allow the user to interact with the LCD display.
 
 1. **WH148 B10K Potentiometer**
 
-   [WH148 B10K Potentiometer](./Pot_1.jpg){style width:"350" height:"300;"}
+   ![WH148 B10K Potentiometer](./Pot_1.jpg){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
@@ -73,7 +71,7 @@ This will allow the user to interact with the LCD display.
 
 2. **PEC11-4215F-S24 Rotary Encoder**
 
-   [PEC11-4215F-S24 Rotary Encoder](./Rotary%201.jpg){style width:"350" height:"300;"}
+   ![PEC11-4215F-S24 Rotary Encoder](./Rotary%201.jpg){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
@@ -84,7 +82,7 @@ This will allow the user to interact with the LCD display.
 
 3. **PTV09A-4215F-B103 Potentiometer**
 
-   [PTV09A-4215F-B103 Potentiometer](./Pot_Small.jpg){style width:"350" height:"300;"}
+   ![PTV09A-4215F-B103 Potentiometer](./Pot_Small.jpg){style width:"350" height:"300;"}
 
    | Pros | Cons |
    | :--: | :--: |
