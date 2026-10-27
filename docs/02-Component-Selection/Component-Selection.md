@@ -32,7 +32,7 @@ The display module will provide a visual interface for the user, allowing inform
 
 2. **ERM2004DNS-1 Display**
 
-   ![ERM2004DNS-1 Display](.LCD_2.webp){style="width:350px; height:300px;"}
+   ![ERM2004DNS-1 Display](./LCD_2.webp){style="width:350px; height:300px;"}
 
    | Pros | Cons |
    | :--: | :--: |
