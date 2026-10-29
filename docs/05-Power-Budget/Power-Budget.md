@@ -15,6 +15,7 @@ title: Power Budget
 | Resistors | 3 | 5V | 1 mA each | 3 mA |
 | **Total** | | | | **35 mA** |
 
+
 ## Resouces
 
 ![Power Budget](RAS304_PowerBudget_ORC.png)

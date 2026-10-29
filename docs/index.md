@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Owen Callaway) Datasheet</font><br>
+<font size= "6">Owen Callaway Datasheet</font><br>
 as part of<br>
 <font size= "8"> RAS304 Project Two</font><br>
 for<br>
@@ -15,7 +15,7 @@ for<br>
 
 ## Introduction
 
-* This is my submission and current github repository for RAS304.
+* This is my portion of work for our RAS 304 project. This being Project OpenField a small autonomous robot that will draw out simple shapes and patterns on the floor.
 
 ### Project Summary
 
