@@ -14,3 +14,7 @@ This schematic is designed to support our teams robot as a central control unit 
 ## Resouces
 
 The schematic as a PDF download is available [*here*](Subsystem_Schematic_Design.pdf).
+
+## INCLUDE FUSES AND DEBUG LED & EXTERNAL PINS
+## INCLUDE FUSES AND DEBUG LED & EXTERNAL PINS
+## INCLUDE FUSES AND DEBUG LED & EXTERNAL PINS

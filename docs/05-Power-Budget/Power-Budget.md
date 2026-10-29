@@ -21,3 +21,7 @@ title: Power Budget
 ![Power Budget](RAS304_PowerBudget_ORC.png)
 
 The power budget and bill of materials are within this Microsoft Excel Sheet [*here*](RAS304.xlsx).
+
+## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
+## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
+## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
