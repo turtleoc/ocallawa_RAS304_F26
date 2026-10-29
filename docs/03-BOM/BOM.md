@@ -10,6 +10,8 @@ This will include everything that will be purchased for my portion of our RAS 30
 
 ## Bill of Materials Example (as Table)
 
+ ![Bill Of Materials](RAS304_BOM.png)
+
 ## Component Bill of Materials
 
 | Component | Qty | Unit Cost | Total Cost | Vendor | Purchase Link | Datasheet |
