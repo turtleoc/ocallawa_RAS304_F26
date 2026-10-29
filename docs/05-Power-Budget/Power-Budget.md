@@ -3,15 +3,17 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+    I created the brains of our project. This means my total power consumption is actually very low as I only power the HMI from my board.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
+## Power Budget
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
-
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+| Component | Qty | Voltage | Current per Unit | Total Current |
+|---|---:|---:|---:|---:|
+| DFR0154 20x4 LCD Display | 1 | 5V | 30 mA | 30 mA |
+| PEC11-4215F-S24 Rotary Encoder | 1 | 5V | 1 mA | 1 mA |
+| Tactile Push Buttons | 2 | 5V | 0.5 mA each | 1 mA |
+| Resistors | 3 | 5V | 1 mA each | 3 mA |
+| **Total** | | | | **35 mA** |
 
 ## Conclusions
 
@@ -19,4 +21,6 @@ From the prepare Power Budget, .....
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+![Power Budget](RAS304_PowerBudget_ORC.png)
+
+The power budget and bill of materials are within this Microsoft Excel Sheet [*here*](RAS304.xlsx).
