@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-written context
+This will include everything that will be purchased for my portion of our RAS 304 Project.
 
 ## Bill of Materials Example (as Table)
 

@@ -9,4 +9,4 @@ Section One : Individual Block Diagram
 
 ## My Block Diagram 
 
-[My Block Diagram](./one.png)
+![My Block Diagram](./one.png)
