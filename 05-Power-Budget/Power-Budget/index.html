@@ -785,6 +785,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Power Budget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conclusions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -923,6 +934,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Power Budget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conclusions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1020,17 +1042,62 @@
   <h1>Power Budget</h1>
 
 <h2 id="overview">Overview</h2>
-<p>Write a overview of what you did and why you did a Power Budget.</p>
-<blockquote>
-<p>Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.</p>
-</blockquote>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../budgetPg1.png" data-desc-position="bottom"><img alt="budget1" height:_300_="height:&quot;300;&quot;" src="../budgetPg1.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../budgetPg2.png" data-desc-position="bottom"><img alt="budget2" height:_300_="height:&quot;300;&quot;" src="../budgetPg2.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../budgetPg3.png" data-desc-position="bottom"><img alt="budget3" height:_300_="height:&quot;300;&quot;" src="../budgetPg3.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
+<pre><code>I created the brains of our project. This means my total power consumption is actually very low as I only power the HMI from my board.
+</code></pre>
+<h2 id="power-budget">Power Budget</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th style="text-align: right;">Qty</th>
+<th style="text-align: right;">Voltage</th>
+<th style="text-align: right;">Current per Unit</th>
+<th style="text-align: right;">Total Current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DFR0154 20x4 LCD Display</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5V</td>
+<td style="text-align: right;">30 mA</td>
+<td style="text-align: right;">30 mA</td>
+</tr>
+<tr>
+<td>PEC11-4215F-S24 Rotary Encoder</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5V</td>
+<td style="text-align: right;">1 mA</td>
+<td style="text-align: right;">1 mA</td>
+</tr>
+<tr>
+<td>Tactile Push Buttons</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5V</td>
+<td style="text-align: right;">0.5 mA each</td>
+<td style="text-align: right;">1 mA</td>
+</tr>
+<tr>
+<td>Resistors</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5V</td>
+<td style="text-align: right;">1 mA each</td>
+<td style="text-align: right;">3 mA</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>35 mA</strong></td>
+</tr>
+</tbody>
+</table>
 <h2 id="conclusions">Conclusions</h2>
 <p>From the prepare Power Budget, .....</p>
 <h2 id="resouces">Resouces</h2>
-<p>The power budget as a PDF download is available <a href="../PowerBudgetExample.pdf"><em>here</em></a>, and a Microsoft Excel Sheet <a href="../PowerBudgetExample.xlsx"><em>here</em></a>.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../RAS304_PowerBudget_ORC.png" data-desc-position="bottom"><img alt="Power Budget" src="../RAS304_PowerBudget_ORC.png"></a></p>
+<p>The power budget and bill of materials are within this Microsoft Excel Sheet <a href="../RAS304.xlsx"><em>here</em></a>.</p>
 
 
 
