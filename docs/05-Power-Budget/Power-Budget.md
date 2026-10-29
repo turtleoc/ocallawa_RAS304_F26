@@ -3,7 +3,7 @@ title: Power Budget
 ---
 
 ## Overview
-    I created the brains of our project. This means my total power consumption is actually very low as I only power the HMI from my board.
+> I created the brains of our project. This means my total power consumption is actually very low as I only power the HMI from my board.
 
 ## Power Budget
 
@@ -14,10 +14,6 @@ title: Power Budget
 | Tactile Push Buttons | 2 | 5V | 0.5 mA each | 1 mA |
 | Resistors | 3 | 5V | 1 mA each | 3 mA |
 | **Total** | | | | **35 mA** |
-
-## Conclusions
-
-From the prepare Power Budget, .....
 
 ## Resouces
 
