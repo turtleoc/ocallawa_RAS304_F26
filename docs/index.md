@@ -26,5 +26,5 @@ for<br>
 
 * I created the brains of our robot. Allowing and controlling inter-board, sensor, and actuator connection.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+To review the details listed of the material used to construct the subsection, you can review it in the [B.O.M](Bill_of_Materials_copy.png) section of the datasheet.
 
