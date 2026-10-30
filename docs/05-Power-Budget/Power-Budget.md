@@ -7,21 +7,18 @@ title: Power Budget
 
 ## Power Budget
 
-| Component | Qty | Voltage | Current per Unit | Total Current |
-|---|---:|---:|---:|---:|
-| DFR0154 20x4 LCD Display | 1 | 5V | 30 mA | 30 mA |
-| PEC11-4215F-S24 Rotary Encoder | 1 | 5V | 1 mA | 1 mA |
-| Tactile Push Buttons | 2 | 5V | 0.5 mA each | 1 mA |
-| Resistors | 3 | 5V | 1 mA each | 3 mA |
-| **Total** | | | | **35 mA** |
+| Component                       | Qty | Voltage | Current Each | Total Current |
+| ------------------------------- | --: | ------- | ------------ | ------------- |
+| DFR0154 20x4 LCD Display        | 1   | 5V      | 30 mA        | 30 mA         |
+| PEC11-4215F-S24 Rotary Encoder  | 1   | 5V      | 1 mA         | 1 mA          |
+| Tactile Push Buttons            | 2   | 5V      | 0.5 mA       | 1 mA          |
+| Resistors                       | 3   | 5V      | 1 mA         | 3 mA          |
+| LEDs                            | 4   | 5V      | 10 mA        | 40 mA         |
+|                                 |     |         | **TOTAL**    | **75 mA**     |
 
 
 ## Resouces
 
-![Power Budget](RAS304_PowerBudget_ORC.png)
+![Power Budget](updated_powerbudget.png)
 
 The power budget and bill of materials are within this Microsoft Excel Sheet [*here*](RAS304.xlsx).
-
-## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
-## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
-## ^^ DOUBLE CHECK LINK AND INCLUDE BOM PDF
