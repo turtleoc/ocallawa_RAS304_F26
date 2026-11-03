@@ -10,19 +10,27 @@ This will include everything that will be purchased for my portion of our RAS 30
 
 ## Bill of Materials Example (as Table)
 
- ![Bill Of Materials](Bill_of_Materials.png)
+ ![Bill Of Materials](BOM_Updated.png)
 
 ## Component Bill of Materials
 
 
-| Component | Qty | Unit Cost | Total Cost | Vendor | Purchase Link | Datasheet |
-|---|---:|---:|---:|---|---|---|
-| DFR0154 Display | 1 | $14.00 | $14.00 | DigiKey | [View Product](https://www.digikey.com/en/products/detail/dfrobot/DFR0154/7597130) | [View Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/800/DFR0154_Web.pdf) |
-| PEC11-4215F-S24 Rotary Encoder | 1 | $4.50 | $4.50 | DigiKey | [View Product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/377/7902287) | [View Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2187/377_Web.pdf) |
-| Tactile Push Button Momentary Set | 1 | $9.78 | $9.78 | Amazon | [View Product](https://www.amazon.com/dp/B01E38OS7K) | [View Datasheet](https://www.amazon.com/dp/B01E38OS7K) |
-| LED Set | 1 | $4.59 | $4.59 | Amazon | [View Product](https://www.amazon.com/dp/B0CR886L92) | [View Datasheet](https://www.amazon.com/dp/B0CR886L92) |
-| Resistor Set | 1 | $9.99 | $9.99 | Amazon | [View Product](https://www.amazon.com/dp/B08FD1XVL6) | [View Datasheet](https://www.amazon.com/dp/B08FD1XVL6) |
-| **TOTAL** | | | **$42.86** | | | |
-
-
-**Total estimated cost: $42.86**
+| Component | Ref. Des. | Board Qty | Order Qty | Purchase | Supplier | Manufacturer # | Unit Cost | Total |
+|---|---|---:|---:|---|---|---|---:|---:|
+| DFR0154 LCD Display, 20x4 I2C | LCD1 | 1 | 1 | ASU Purchase | DigiKey | DFRobot DFR0154 | $14.00 | $14.00 |
+| Rotary Encoder | ENC1 | 1 | 1 | ASU Purchase | DigiKey | PEC11-4215F-S24 | $4.50 | $4.50 |
+| Tactile Push Buttons (pack) | SW1, SW2 | 2 | 1 | ASU Purchase | Amazon | Generic 10mm tactile pack | $5.99 | $5.99 |
+| LEDs, 5mm (pack) | D1-D4 | 4 | 0 | Not Needed | Course Kit | Generic 5mm LED pack | $5.99 | $5.99 |
+| 330 ohm Resistors | R4-R7 | 4 | 0 | Not Needed | Course Kit | Generic 330R | $0.00 | $0.00 |
+| 1k ohm Resistor | R0 | 1 | 0 | Not Needed | Course Kit | Generic 1K | $0.00 | $0.00 |
+| 10k ohm Resistors | R1-R3 | 3 | 0 | Not Needed | Course Kit | Generic 10K | $0.00 | $0.00 |
+| LM7805 5V Regulator | U1 | 1 | 0 | Not Needed | Course Kit | L7805CV | $0.00 | $0.00 |
+| 0.33uF Capacitors | C1, C2 | 2 | 0 | Not Needed | Course Kit | Generic 334 | $0.00 | $0.00 |
+| Barrel Jack with Switch | J1 | 1 | 0 | Not Needed | Course Kit | Generic switched jack | $0.00 | $0.00 |
+| Fuse (750mA) | F1 | 1 | 1 | Self Purchase | Amazon | Generic fuse | $7.99 | $7.99 |
+| 8-wire pin UART header | X_UART | 1 | 0 | Not Needed | Course Kit | 2x4 IDC Header | $0.00 | $0.00 |
+| **External Powering of Board** | | | | | | | | |
+| 18650 Li-ion | | 2 | 1 | Self Purchase | Amazon | Generic Cell | $14.99 | $14.99 |
+| 2S Cell Holder | | 1 | 1 | Self Purchase | Amazon | Generic 2S | $6.99 | $6.99 |
+| BMS | | 1 | 1 | Self Purchase | Amazon | Generic BMS | $9.59 | $9.59 |
+| **Estimated Total** | | | | | | | | **$70.04** |
