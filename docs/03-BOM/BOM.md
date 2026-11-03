@@ -34,3 +34,5 @@ This will include everything that will be purchased for my portion of our RAS 30
 | 2S Cell Holder | | 1 | 1 | Self Purchase | Amazon | Generic 2S | $6.99 | $6.99 |
 | BMS | | 1 | 1 | Self Purchase | Amazon | Generic BMS | $9.59 | $9.59 |
 | **Estimated Total** | | | | | | | | **$70.04** |
+
+## Estimated Total Cost of Materials: $70.04
